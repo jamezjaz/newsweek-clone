@@ -29,7 +29,8 @@ body {
 }
 
 .icon,
-.figure-cap {
+.figure-cap,
+.sub-btn {
   color: white;
   background-color: #f72210;
 }
@@ -43,6 +44,52 @@ body {
   font-weight: bolder;
 }
 
-.figure-caption {
+.figure-caption,
+.titles {
   color: #f72210;
+}
+
+.figure {
+  background-color: rgba(255,255,255,.9);
+}
+
+.features {
+  font-weight: bolder;
+
+}
+
+.sub-container {
+  background-color: rgb(230, 223, 223);
+}
+
+.subscribe,
+.subscribe-h2 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.subscribe-h2 {
+  margin-left: 8rem;
+}
+
+.delivery {
+  font-size: 0.7rem;
+}
+
+.access {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.sub-btn {
+  height: 8%;
+}
+
+.overlay {
+  margin-left: 5rem;
+}
+
+.justifier {
+  height: 5%;
+  bottom: 20rem;
 }
