@@ -28,8 +28,21 @@ body {
   font-weight: 900;
 }
 
-.icon {
-  background-color: #f72210; 
+.icon,
+.figure-cap {
   color: white;
+  background-color: #f72210;
+}
+
+.icon {
   font-size: 1.5rem;
+}
+
+.figure-cap,
+.figure-caption {
+  font-weight: bolder;
+}
+
+.figure-caption {
+  color: #f72210;
 }
