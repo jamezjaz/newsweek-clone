@@ -23,3 +23,13 @@ body {
 .img-verse {
   width: 40%;
 }
+
+.display-5 {
+  font-weight: 900;
+}
+
+.icon {
+  background-color: #f72210; 
+  color: white;
+  font-size: 1.5rem;
+}
