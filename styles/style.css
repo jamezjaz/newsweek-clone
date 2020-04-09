@@ -93,3 +93,45 @@ body {
   height: 5%;
   bottom: 20rem;
 }
+.nav-link,
+.col-md-1 {
+  border-right: solid 0.1rem rgb(224, 219, 219);
+}
+
+.col-md-1 {
+  font-size: 0.7rem;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav-svg,
+.footer-svg {
+  padding: 1rem 0;
+  width: 30%;
+}
+
+.logo,
+.footer-logo {
+  width: 100%;
+  fill: #f72210;
+  margin-left: 2rem;
+}
+
+.copyright {
+  width: 40%;
+  margin: 1rem 0 0 -10rem;
+}
+.copy {
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.social {
+  margin: 1rem 0 0 12rem;
+  width: 30%;
+}
+
+
