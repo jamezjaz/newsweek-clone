@@ -1,5 +1,66 @@
 body {
   overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #f72210;
+}
+
+.nav-image {
+  max-width: 50%;
+}
+
+a,
+.text-secondary a:hover,
+.pandemic a:hover,
+.culture a:hover,
+.opinion:hover,
+.debate:hover,
+.latest:hover,
+.feature:hover,
+.features:hover {
+  text-decoration: none;
+}
+
+a {
+  color:black;
+}
+
+a:hover {
+  color: black;
+  text-decoration-color: #f72210;
+}
+
+.text-secondary a {
+  color: rgb(95, 93, 93);
+  font-weight: bolder;
+}
+
+.pandemic span,
+.culture span {
+  color: rgb(104, 102, 102);
+}
+
+.sub,
+.fa-chevron-right,
+.figure-caption,
+.titles,
+.opinion:hover,
+.latest:hover,
+.features,
+.features:hover  {
+  color: #f72210;
+}
+
+.sign-in {
+  position: absolute;
+  right: 4rem;
+}
+
+.fa-bars {
+  font-size: 1.8rem;
+  color: rgb(216, 214, 214);
 }
 
 .search-container {
@@ -18,6 +79,10 @@ body {
   padding: 0.5rem 0;
   flex: 1;
   width: 5%;
+}
+
+.debate-border {
+  padding: 0.1rem;
 }
 
 .img-verse {
@@ -40,22 +105,22 @@ body {
 }
 
 .figure-cap,
-.figure-caption {
-  font-weight: bolder;
-}
-
 .figure-caption,
-.titles {
-  color: #f72210;
+.feature,
+.latest {
+  font-weight: bolder;
 }
 
 .figure {
   background-color: rgba(255,255,255,.9);
 }
 
-.features {
-  font-weight: bolder;
+.feature:hover {
+  background-color: grey;
+}
 
+.cursor {
+  cursor: pointer;
 }
 
 .sub-container {
@@ -107,17 +172,22 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.nav-svg,
 .footer-svg {
   padding: 1rem 0;
   width: 30%;
 }
 
-.logo,
 .footer-logo {
   width: 100%;
-  fill: #f72210;
   margin-left: 2rem;
+}
+
+.footer-logo {
+  fill: #fdfcfc;
+}
+
+.footer-logo {
+  fill: #f72210;
 }
 
 .copyright {
@@ -133,5 +203,3 @@ body {
   margin: 1rem 0 0 12rem;
   width: 30%;
 }
-
-
