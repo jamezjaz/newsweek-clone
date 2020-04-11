@@ -15,6 +15,11 @@ body {
   font-weight: bolder;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 a:hover {
   color: black;
   text-decoration-color: #f72210;
@@ -34,7 +39,6 @@ a:hover {
   font-weight: bolder;
 }
 
-a,
 .pandemic a:hover,
 .culture a:hover,
 .opinion:hover,
@@ -42,10 +46,6 @@ a,
 .latest:hover,
 .feature:hover {
   text-decoration: none;
-}
-
-a {
-  color: black;
 }
 
 .sub {
