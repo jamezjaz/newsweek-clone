@@ -37,7 +37,7 @@ Mobile screen viewport
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/the-next-web/53075ec0e249d9eb064a2e67bc0fda1d8953e031/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/newsweek-clone/e049c04fea5ceffe375820878bca28207a4bb12c/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
