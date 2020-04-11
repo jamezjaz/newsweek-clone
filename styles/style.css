@@ -66,6 +66,8 @@ a:hover {
 }
 
 .search-icon {
+  position: sticky;
+  right: 0;
   padding: 0.5rem 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: 550;
@@ -106,7 +108,8 @@ a:hover {
   font-weight: bolder;
 }
 
-.figure {
+.figure,
+.sub-container {
   background-color: rgba(255,255,255,.9);
 }
 
@@ -116,10 +119,6 @@ a:hover {
 
 .cursor {
   cursor: pointer;
-}
-
-.sub-container {
-  background-color: rgb(230, 223, 223);
 }
 
 .subscribe,
@@ -168,11 +167,6 @@ a:hover {
   width: 10rem;
 }
 
-.search-icon {
-  position: sticky;
-  right: 0;
-}
-
 .nav-icons {
   display: flex;
   justify-content: flex-end;
@@ -211,10 +205,6 @@ a:hover {
 .footer-logo {
   width: 100%;
   margin-left: 2rem;
-}
-
-.footer-logo {
-  fill: #fdfcfc;
 }
 
 .footer-logo {
@@ -288,7 +278,6 @@ a:hover {
   }
 
   .top-section {
-    display: grid;
     grid-template-areas:
       "item1 item2"
       "item3 item3";
