@@ -15,20 +15,6 @@ body {
   font-weight: bolder;
 }
 
-a,
-.pandemic a:hover,
-.culture a:hover,
-.opinion:hover,
-.debate:hover,
-.latest:hover,
-.feature:hover {
-  text-decoration: none;
-}
-
-a {
-  color: black;
-}
-
 a:hover {
   color: black;
   text-decoration-color: #f72210;
@@ -44,6 +30,28 @@ a:hover {
   font-weight: bolder;
 }
 
+.latest {
+  font-weight: bolder;
+}
+
+a,
+.pandemic a:hover,
+.culture a:hover,
+.opinion:hover,
+.debate:hover,
+.latest:hover,
+.feature:hover {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.sub {
+  color: #f72210;
+}
+
 .sub:hover,
 .text-secondary a:hover {
   text-decoration: none;
@@ -54,11 +62,6 @@ a:hover {
   color: rgb(104, 102, 102);
 }
 
-.latest {
-  font-weight: bolder;
-}
-
-.sub,
 .sub:hover,
 .fa-chevron-right,
 .figure-caption,
@@ -90,6 +93,11 @@ a:hover {
   padding: 0.5rem 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: 550;
+}
+
+.noPadding {
+  padding: 0;
+  margin: 0;
 }
 
 .debate-border {
