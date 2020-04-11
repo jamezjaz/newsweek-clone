@@ -11,21 +11,22 @@ body {
   max-width: 50%;
 }
 
+.feature {
+  font-weight: bolder;
+}
+
 a,
-.sub:hover,
-.text-secondary a:hover,
 .pandemic a:hover,
 .culture a:hover,
 .opinion:hover,
 .debate:hover,
 .latest:hover,
-.feature:hover,
-.features:hover {
+.feature:hover {
   text-decoration: none;
 }
 
 a {
-  color:black;
+  color: black;
 }
 
 a:hover {
@@ -33,14 +34,28 @@ a:hover {
   text-decoration-color: #f72210;
 }
 
+.weather,
+.weather a {
+  color: whitesmoke;
+}
+
 .text-secondary a {
   color: rgb(95, 93, 93);
   font-weight: bolder;
 }
 
+.sub:hover,
+.text-secondary a:hover {
+  text-decoration: none;
+}
+
 .pandemic span,
 .culture span {
   color: rgb(104, 102, 102);
+}
+
+.latest {
+  font-weight: bolder;
 }
 
 .sub,
@@ -51,8 +66,12 @@ a:hover {
 .opinion:hover,
 .latest:hover,
 .features,
-.features:hover  {
+.features:hover {
   color: #f72210;
+}
+
+.features:hover {
+  text-decoration: none;
 }
 
 .sign-in {
@@ -71,11 +90,6 @@ a:hover {
   padding: 0.5rem 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: 550;
-}
-
-.weather,
-.weather a {
-  color: whitesmoke;
 }
 
 .debate-border {
@@ -102,15 +116,13 @@ a:hover {
 }
 
 .figure-cap,
-.figure-caption,
-.feature,
-.latest {
+.figure-caption {
   font-weight: bolder;
 }
 
 .figure,
 .sub-container {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .feature:hover {
@@ -205,9 +217,6 @@ a:hover {
 .footer-logo {
   width: 100%;
   margin-left: 2rem;
-}
-
-.footer-logo {
   fill: #f72210;
 }
 
@@ -215,6 +224,7 @@ a:hover {
   width: 40%;
   padding: 3rem 0 0 12rem;
 }
+
 .copy {
   width: 100%;
   font-size: 0.8rem;
@@ -288,6 +298,7 @@ a:hover {
   .fa-bars {
     display: none;
   }
+
   .nav-icons {
     position: sticky;
     right: 0;
@@ -304,6 +315,7 @@ a:hover {
     width: 40%;
     padding: 1rem 0 0 2rem;
   }
+
   .copy {
     width: 100%;
     font-size: 0.5rem;
