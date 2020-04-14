@@ -3,13 +3,22 @@
 
 ## Preview
 Large & extra large screen viewport
-![Newsweek Page](https://user-images.githubusercontent.com/57812000/79031776-f70e1f80-7b66-11ea-9eb4-a03eace7e362.png)
+![Newsweek Page](https://user-images.githubusercontent.com/57812000/79218563-40d06180-7e16-11ea-8b81-02da27619025.png)
 
 Medium screen viewport
-![Newsweek Page2](https://user-images.githubusercontent.com/57812000/79031778-fc6b6a00-7b66-11ea-97aa-21d3efeacfdd.png)
+![Newsweek Page2](https://user-images.githubusercontent.com/57812000/79218582-44fc7f00-7e16-11ea-9dc6-2e4d6df39d6b.png)
 
-Mobile screen viewport
-![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79031784-01c8b480-7b67-11ea-864b-313a1b02b444.png)
+        Mobile screen viewport
+![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79218597-49289c80-7e16-11ea-9890-9c68985531df.png)
+
+Opinion Section on phone resolution
+![Opinion Section on Phone Resolution](https://user-images.githubusercontent.com/57812000/79218709-79703b00-7e16-11ea-870e-34a6ed014d7f.png)
+
+Debate Section on phone resolution
+![Debate Section on Phone Resolution](https://user-images.githubusercontent.com/57812000/79218730-81c87600-7e16-11ea-941d-0aade81d7cb8.png)
+
+Footer on phone resolution
+![Footer on Phone Resolution](https://user-images.githubusercontent.com/57812000/79218736-84c36680-7e16-11ea-9a64-878cb0e4c9e0.png)
 
 
 
