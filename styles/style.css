@@ -365,10 +365,6 @@ footer {
   grid-area: item4;
 }
 
-.debate {
-  float: right;
-}
-
 .more-stories {
   grid-area: item5;
 }
