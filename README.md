@@ -14,7 +14,7 @@ Medium screen viewport
 Opinion Section on phone resolution
 ![Opinion Section on Phone Resolution](https://user-images.githubusercontent.com/57812000/79218709-79703b00-7e16-11ea-870e-34a6ed014d7f.png)
 
-Debate Section on phone resolution
+        Debate Section on phone resolution
 ![Debate Section on Phone Resolution](https://user-images.githubusercontent.com/57812000/79219148-55f9c000-7e17-11ea-800f-15f9b29da498.png)
 
 
