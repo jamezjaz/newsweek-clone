@@ -9,7 +9,7 @@ body {
 
 .navigation {
   background-color: #fff;
-  border-bottom: solid 0.08rem rgb(230, 227, 227);
+  border-bottom: solid 0.08rem #f4f5f6;
 }
 
 .navbar-brand,
@@ -150,6 +150,17 @@ a:hover {
   font-weight: bolder;
 }
 
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  height: 18.7rem;
+}
+
+.subscribe-info {
+  position: absolute;
+  left: 19rem;
+}
+
 .figure,
 .sub-container {
   background-color: #f4f5f6;
@@ -170,7 +181,11 @@ a:hover {
 }
 
 .subscribe-h2 {
-  margin-left: 8rem;
+  margin-left: 6rem;
+}
+
+.subscribe-h2 span {
+  font-size: 0.8rem;
 }
 
 .delivery {
@@ -201,8 +216,8 @@ a:hover {
 }
 
 .nav-link {
-  border-right: solid 0.1rem rgb(224, 219, 219);
-  padding: 0.5rem 1rem 0 1rem;
+  border-right: solid 0.1rem #f4f5f6;
+  padding: 0.5rem 0.8rem 0 0.4rem;
 }
 
 .input {
@@ -220,7 +235,9 @@ a:hover {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  font-size: 0.8rem;
+  height: 1.9rem;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .collapse {
@@ -252,37 +269,53 @@ a:hover {
   grid-template-columns: 2fr 1fr;
 }
 
+.sub-container-sm,
+.news-container-sm {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.sub-container-sm {
+  background-color: #f4f5f6;
+}
+
+.sub-container-sm img {
+  width: 8rem;
+}
+
+.newsletter-img-sm {
+  width: 102.5%;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.footer-svg {
-  padding: 1rem 0;
-  width: 30%;
-}
-
 .footer-logo {
-  width: 100%;
+  height: 4rem;
   margin-left: 2rem;
-  fill: #f72210;
 }
 
-.copyright {
+.copyright,
+.social {
   width: 40%;
-  padding: 3rem 0 0 12rem;
+  padding-top: 3rem;
+}
+
+.social {
+  font-size: 1.5rem;
+  padding-left: 4rem;
 }
 
 .copy {
   width: 100%;
   font-size: 0.8rem;
-}
-
-.social {
-  padding: 3rem 0 0 12rem;
-  width: 30%;
-  font-size: 1.3rem;
 }
 
 .social i {
@@ -346,7 +379,7 @@ a:hover {
 
 @media only screen and (max-width: 1180px) {
   .nav-list {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -371,17 +404,26 @@ a:hover {
     display: none;
   }
 
-  .social {
-    padding: 3rem 0 0 0;
-    width: 30%;
-  }
-
   .subscribe-section {
     display: block;
   }
 
   .top-right {
     margin: 2rem 0 0 1rem;
+  }
+
+  .signup {
+    text-align: center;
+    margin: 0 15rem;
+  }
+
+  .signup-news {
+    text-align: center;
+    margin: 0 2rem;
+  }
+
+  .signup-news img {
+    width: 1rem !important;
   }
 }
 
@@ -411,7 +453,7 @@ a:hover {
   }
 
   .sub-container h2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .sub-container span {
@@ -422,6 +464,10 @@ a:hover {
     display: block;
   }
 
+  .social {
+    padding-left: 2rem;
+  }
+
   .copyright {
     width: 40%;
     padding: 1rem 0 0 2rem;
@@ -430,11 +476,6 @@ a:hover {
   .copy {
     width: 100%;
     font-size: 0.5rem;
-  }
-
-  .social {
-    padding: 1rem 0 0 2rem;
-    width: 30%;
   }
 
   .footer-mid li,
@@ -464,6 +505,20 @@ a:hover {
 
   .magazine {
     margin-bottom: 1rem;
+  }
+
+  .signup {
+    text-align: center;
+    margin: 0 14rem;
+  }
+
+  .signup2 {
+    text-align: center;
+    margin: 0 10rem;
+  }
+
+  .subscribe-section {
+    display: none;
   }
 }
 
