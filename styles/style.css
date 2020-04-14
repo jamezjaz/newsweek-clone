@@ -45,6 +45,11 @@ a:hover {
   font-weight: bolder;
 }
 
+.footer-links a {
+  color: #666;
+  padding-left: 0.7rem;
+}
+
 .pandemic a:hover,
 .culture a:hover,
 .opinion:hover,
@@ -288,11 +293,6 @@ a:hover {
   color: blue;
 }
 
-.footer-links a {
-  color: #666;
-  padding-left: 0.7rem;
-}
-
 .footer-links a:hover {
   color: #333;
   text-decoration: none;
@@ -354,6 +354,7 @@ a:hover {
   .fa-bars {
     display: inline;
   }
+
   .opinion-img {
     width: 5rem;
   }
@@ -380,7 +381,7 @@ a:hover {
   }
 
   .top-right {
-    margin:2rem 0 0 1rem;
+    margin: 2rem 0 0 1rem;
   }
 }
 
@@ -435,7 +436,7 @@ a:hover {
     padding: 1rem 0 0 2rem;
     width: 30%;
   }
-  
+
   .footer-mid li,
   .footer-bottom li {
     border-right: none;
@@ -467,7 +468,6 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
   .footer-links {
     display: inline-block !important;
   }
