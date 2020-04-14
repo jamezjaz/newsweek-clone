@@ -460,6 +460,10 @@ a:hover {
   .display-top {
     display: none;
   }
+
+  .magazine {
+    margin-bottom: 1rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
