@@ -7,6 +7,12 @@ body {
   background-color: #f72210;
 }
 
+.navigation {
+  background-color: #fff;
+  border-bottom: solid 0.08rem rgb(230, 227, 227);
+}
+
+.navbar-brand,
 .nav-image {
   max-width: 50%;
 }
@@ -83,6 +89,7 @@ a:hover {
 }
 
 .fa-bars {
+  display: none;
   font-size: 1.8rem;
   color: rgb(216, 214, 214);
 }
@@ -337,13 +344,26 @@ a:hover {
   grid-area: item9;
 }
 
+@media only screen and (max-width: 1180px) {
+  .nav-list {
+    font-size: 0.5rem;
+  }
+}
+
 @media only screen and (max-width: 992px) {
+  .fa-bars {
+    display: inline;
+  }
   .opinion-img {
     width: 5rem;
   }
 
   .nav {
     display: none;
+  }
+
+  .navigation {
+    border-bottom: none;
   }
 
   .date {
@@ -359,11 +379,12 @@ a:hover {
     display: block;
   }
 
-@media only screen and (min-width: 992px) {
-  .fa-bars {
-    display: none;
+  .top-right {
+    margin:2rem 0 0 1rem;
   }
+}
 
+@media only screen and (min-width: 992px) {
   .nav-icons {
     position: sticky;
     right: 0;
@@ -372,6 +393,30 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar {
+    font-size: 0.5rem;
+  }
+
+  .nav-image {
+    max-width: 40%;
+  }
+
+  .topright-img-con {
+    margin-right: 0;
+  }
+
+  .top-sect-sm {
+    margin: 2rem 0 2rem 0;
+  }
+
+  .sub-container h2 {
+    font-size: 1rem;
+  }
+
+  .sub-container span {
+    font-size: 0.6rem;
+  }
+
   .footer-top {
     display: block;
   }
@@ -411,12 +456,13 @@ a:hover {
   .culture {
     padding-left: 1rem !important;
   }
+
+  .display-top {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .topright-img-con {
-    margin-right: 0;
-  }
 
   .footer-links {
     display: inline-block !important;
