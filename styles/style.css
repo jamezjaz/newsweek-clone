@@ -260,8 +260,16 @@ a:hover {
   width: 3rem;
 }
 
-.topright-img-con {
-  margin-right: 2rem;
+.debate-info {
+  left: 7rem;
+  bottom: 2rem;
+}
+
+.debate-grid,
+.latest-grid,
+.opinion-grid {
+  display: grid;
+  grid-template-columns: 0.2fr 2fr;
 }
 
 .subscribe-section {
@@ -357,6 +365,10 @@ footer {
   grid-area: item4;
 }
 
+.debate {
+  float: right;
+}
+
 .more-stories {
   grid-area: item5;
 }
@@ -389,7 +401,7 @@ footer {
   }
 
   .opinion-img {
-    width: 5rem;
+    width: 5rem !important;
   }
 
   .nav {
