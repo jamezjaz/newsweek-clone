@@ -47,7 +47,7 @@ Opinion Section on phone resolution
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/newsweek-clone/e049c04fea5ceffe375820878bca28207a4bb12c/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/newsweek-clone/8d91f61b91df883d0ba27912e5724336031c3acf/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
