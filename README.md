@@ -11,16 +11,6 @@ Medium screen viewport
         Mobile screen viewport
 ![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79218597-49289c80-7e16-11ea-9890-9c68985531df.png)
 
-Opinion Section on phone resolution
-![Opinion Section on Phone Resolution](https://user-images.githubusercontent.com/57812000/79218709-79703b00-7e16-11ea-870e-34a6ed014d7f.png)
-
-        Debate Section on phone resolution
-![Debate Section on Phone Resolution](https://user-images.githubusercontent.com/57812000/79219148-55f9c000-7e17-11ea-800f-15f9b29da498.png)
-
-
-        Footer on phone resolution
-![Footer on Phone Resolution](https://user-images.githubusercontent.com/57812000/79218736-84c36680-7e16-11ea-9a64-878cb0e4c9e0.png)
-
 
 
 ### Additional description about the project and its features
