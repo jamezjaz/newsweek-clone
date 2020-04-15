@@ -1,11 +1,11 @@
 body {
   overflow-x: hidden;
   font-family: sans-serif;
-  background-color: rgb(244,245,246);
+  background-color: rgb(244, 245, 246);
 }
 
 .main-con {
-  background-color: rgb(255,255,255);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   max-width: 1310px;
   margin: 0 auto;
@@ -123,7 +123,7 @@ a:hover {
 .fa-bars {
   display: none;
   font-size: 1.8rem;
-  color: rgb(251,154,148);
+  color: rgb(251, 154, 148);
 }
 
 .search-icon {
@@ -422,7 +422,7 @@ footer {
   header {
     height: 50px;
   }
-  
+
   .fa-bars {
     display: inline;
   }
