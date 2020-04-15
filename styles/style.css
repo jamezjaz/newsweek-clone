@@ -20,6 +20,12 @@ header {
   height: 25px;
 }
 
+.country {
+  position: relative;
+  white-space: nowrap;
+  max-width: fit-content;
+}
+
 .navbar {
   background-color: #f72210;
 }
@@ -51,10 +57,6 @@ a:hover {
 .weather,
 .weather a {
   color: whitesmoke;
-}
-
-.weather-con {
-  width: 200px;
 }
 
 .logo-con {
@@ -114,10 +116,8 @@ a:hover {
 }
 
 .sign-in {
-  width: 250px;
   position: relative;
   white-space: nowrap;
-  /* right: 4rem; */
 }
 
 .fa-bars {
@@ -472,6 +472,11 @@ footer {
     right: 0;
     left: 58.5rem;
   }
+
+  .weather-con,
+  .sign-in {
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -582,5 +587,9 @@ footer {
       "item1"
       "item2"
       "item3";
+  }
+
+  .temp {
+    display: none;
   }
 }
