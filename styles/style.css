@@ -1,6 +1,23 @@
 body {
   overflow-x: hidden;
   font-family: sans-serif;
+  background-color: rgb(244,245,246);
+}
+
+.main-con {
+  background-color: rgb(255,255,255);
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+header {
+  height: 95px;
+}
+
+.logo-con-sm img {
+  width: 131px;
+  height: 25px;
 }
 
 .navbar {
@@ -12,9 +29,9 @@ body {
   border-bottom: solid 0.08rem #f4f5f6;
 }
 
-.navbar-brand,
 .nav-image {
-  max-width: 50%;
+  width: 380px;
+  height: 80px;
 }
 
 .feature {
@@ -34,6 +51,14 @@ a:hover {
 .weather,
 .weather a {
   color: whitesmoke;
+}
+
+.weather-con {
+  width: 200px;
+}
+
+.logo-con {
+  width: 100%;
 }
 
 .text-secondary a {
@@ -89,14 +114,16 @@ a:hover {
 }
 
 .sign-in {
-  position: absolute;
-  right: 4rem;
+  width: 250px;
+  position: relative;
+  white-space: nowrap;
+  /* right: 4rem; */
 }
 
 .fa-bars {
   display: none;
   font-size: 1.8rem;
-  color: rgb(216, 214, 214);
+  color: rgb(251,154,148);
 }
 
 .search-icon {
@@ -392,6 +419,10 @@ footer {
 }
 
 @media only screen and (max-width: 992px) {
+  header {
+    height: 50px;
+  }
+  
   .fa-bars {
     display: inline;
   }
