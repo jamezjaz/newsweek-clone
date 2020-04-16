@@ -37,7 +37,7 @@ Medium screen viewport
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/newsweek-clone/8cc28db0f6582df8432e343ad953d5583d632234/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/newsweek-clone/b01c3c08ef125ba02b251da9bb8a00c3471ec422/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
