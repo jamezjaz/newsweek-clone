@@ -6,10 +6,10 @@ Large & extra large screen viewport
 ![Newsweek Page](https://user-images.githubusercontent.com/57812000/79503737-4afd8600-7ff7-11ea-879d-3e3947d7b345.png)
 
 Medium screen viewport
-![Newsweek Page2](https://user-images.githubusercontent.com/57812000/79503748-52bd2a80-7ff7-11ea-8012-adb554b06973.png)
+![Newsweek Page2](https://user-images.githubusercontent.com/57812000/79504445-864c8480-7ff8-11ea-9653-764b8cdbbc83.png)
 
-        Mobile screen viewport
-![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79503767-5b156580-7ff7-11ea-9584-14e1a17c8de3.png)
+        Small screen viewport
+![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79504465-8ea4bf80-7ff8-11ea-9c04-06f4a3e62b9b.png)
 
         Extra small screen viewport
 
