@@ -488,6 +488,10 @@ footer {
     max-width: 40%;
   }
 
+  .sub-font {
+    font-size: 1rem;
+  }
+
   .topright-img-con {
     margin-right: 0;
   }
