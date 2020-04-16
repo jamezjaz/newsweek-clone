@@ -3,13 +3,17 @@
 
 ## Preview
 Large & extra large screen viewport
-![Newsweek Page](https://user-images.githubusercontent.com/57812000/79218563-40d06180-7e16-11ea-8b81-02da27619025.png)
+![Newsweek Page](https://user-images.githubusercontent.com/57812000/79503737-4afd8600-7ff7-11ea-879d-3e3947d7b345.png)
 
 Medium screen viewport
-![Newsweek Page2](https://user-images.githubusercontent.com/57812000/79218582-44fc7f00-7e16-11ea-9dc6-2e4d6df39d6b.png)
+![Newsweek Page2](https://user-images.githubusercontent.com/57812000/79503748-52bd2a80-7ff7-11ea-8012-adb554b06973.png)
 
         Mobile screen viewport
-![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79218597-49289c80-7e16-11ea-9890-9c68985531df.png)
+![Newsweek Page3](https://user-images.githubusercontent.com/57812000/79503767-5b156580-7ff7-11ea-9584-14e1a17c8de3.png)
+
+        Extra small screen viewport
+
+![Newsweek Page4](https://user-images.githubusercontent.com/57812000/79503789-649ecd80-7ff7-11ea-8839-f6bc93bb2355.png)
 
 
 
